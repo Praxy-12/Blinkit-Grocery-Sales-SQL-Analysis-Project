@@ -1,9 +1,9 @@
 --Rank Items by Sales Within Each Outlet
-SELECT
-outlet_identifier, 
-item_identifier,
-sales,
-RANK() OVER (PARTITION BY outlet_identifier ORDER BY sales DESC) AS sales_rank
+SELECT 
+	outlet_identifier,  
+	item_identifier,
+	sales,
+	RANK() OVER (PARTITION BY outlet_identifier ORDER BY sales DESC) AS sales_rank
 FROM grocery_sales
 WHERE sales IS NOT NULL;
 
