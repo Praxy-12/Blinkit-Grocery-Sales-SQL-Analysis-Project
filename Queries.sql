@@ -30,9 +30,9 @@ SELECT
 	item_fat_content,
 	AVG (rating) AS avg_rating,
 	CASE
-	WHEN AVG(rating) >= 4.5 THEN 'Excellent'
-	WHEN AVG(rating) >= 3.5 THEN 'Good'
-	ELSE 'Needs Improvement'
+	  WHEN AVG(rating) >= 4.5 THEN 'Excellent'
+	  WHEN AVG(rating) >= 3.5 THEN 'Good'
+	  ELSE 'Needs Improvement'
 	END AS rating_ category
 FROM grocery_sales
 GROUP BY outlet_location _type, item_fat_content;
