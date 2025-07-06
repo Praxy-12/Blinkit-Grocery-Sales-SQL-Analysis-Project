@@ -1,12 +1,13 @@
 # Blinkit-Grocery-Sales-SQL-Analysis-Project
 This project explores and analyzes grocery sales data for Blinkit, a retail company. Usir advanced SQL queries and window functions, we uncover sales trends, customer preferences, outlet performance, and more.
 
+
 -->SQL Analysis Goals
--Rank items by sales within each outlet
--Analyze sales growth year over year
--Explore average and weighted customer ratings
--Examine visibility and sales patterns by outlet
--Understand how fat content affects customer perception
+- Rank items by sales within each outlet
+- Analyze sales growth year over year
+- Explore average and weighted customer ratings
+- Examine visibility and sales patterns by outlet
+- Understand how fat content affects customer perception
 
 
 -->Key SQL Techniques Used
